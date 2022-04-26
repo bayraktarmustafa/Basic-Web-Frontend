@@ -1,3 +1,27 @@
-h1{
-    color: aquamarine;
+nav{
+    background-color: #763241;
+    padding: 10px;
+    
 }
+ul
+{
+    background-color: aqua;
+}
+.girisdiv
+{
+    text-align: center;
+    margin: 100px 500px 100px 500px;
+}
+p
+{
+    margin: 100px 500px 100px 500px ;
+}
+.özgecmisdiv
+{
+    background-color: rgb(90, 53, 52);
+    text-align: center;
+    font-size: medium;
+    
+   
+}
+
