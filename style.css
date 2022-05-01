@@ -1,27 +1,14 @@
-nav{
-    background-color: #763241;
-    padding: 10px;
-    
-}
-ul
+
+.container
 {
-    background-color: aqua;
-}
-.girisdiv
-{
-    text-align: center;
-    margin: 100px 500px 100px 500px;
-}
-p
-{
-    margin: 100px 500px 100px 500px ;
-}
-.özgecmisdiv
-{
-    background-color: rgb(90, 53, 52);
+   width: 500px;height: auto;
     text-align: center;
     font-size: medium;
+    margin: 100px auto ;
     
-   
+}
+nav
+{
+    background-color: wheat;
 }
 
