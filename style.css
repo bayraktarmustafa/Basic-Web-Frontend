@@ -7,8 +7,17 @@
     margin: 100px auto ;
     
 }
-nav
-{
-    background-color: wheat;
-}
 
+.sliderboyut
+{
+  
+    text-align: center;
+    font-size: medium;
+    margin: 500px 500px 500px 500px  ;
+    
+}
+.ilgi
+{
+    text-align: center;
+    color: firebrick;
+}
