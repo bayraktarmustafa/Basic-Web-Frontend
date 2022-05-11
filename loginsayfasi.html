@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	  <link href="style.css" rel="stylesheet" type="text/css">
-    
+   
 	  
     <title>Mustafa Bayraktar</title>
   </head>
@@ -40,22 +40,24 @@
       <div class="col-sm-6 text-black">
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-          <form action="login.php" method="post">
+          <form action="login.php"  name="girisyapform" method="post">
 
             <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 5px; color: whitesmoke;">Giriş Yap</h3>
 
             <div class="form-outline mb-4">
-              <input type="email" id="email1" class="form-control form-control-lg" />
+              <input type="email" id="email1" name="email1" class="form-control form-control-lg" placeholder="Email" >
               <label class="form-label" for="email1" style="color: whitesmoke;">Email Adresi</label>
+              <p class="hatamail mt-3" style="color: rgb(122, 14, 14);"></p>
             </div>
 
             <div class="form-outline mb-4">
-              <input type="password" id="sifre1" class="form-control form-control-lg" />
+              <input type="password" id="sifre1" name="sifre1" class="form-control form-control-lg" placeholder="Şifre" >
               <label class="form-label" for="sifre1"  style="color: whitesmoke;" >Şifre</label>
+              <p class="hatasifre mt-3" style="color: rgb(122, 14, 14);"></p>
             </div>
 
             <div class="pt-1 mb-4">
-              <button class="btn btn-info btn-lg btn-block" type="submit">Giriş Yap</button>
+              <button class="btn btn-info btn-lg btn-block" type="submit" id="gönder1">Giriş Yap</button>
             </div>
 
             
@@ -67,5 +69,7 @@
     </div>
   </div>
 </section>
+
+<script src="login.js"></script>
 </body>
 </html>

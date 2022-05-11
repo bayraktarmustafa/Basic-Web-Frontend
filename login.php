@@ -34,3 +34,23 @@
   </div>
 </nav>
 </header>
+<div class="container">
+<?php
+
+$mail = 'b201210048@sakarya.edu.tr';
+$sifre = 'b201210048';
+$gelenmail = $_POST['email1'];
+$gelensifre = $_POST['sifre1'];
+if($gelenmail == $mail && $gelensifre == $sifre)
+{
+  echo '<p style = "text-align:center; text-size:larger;">Giriş işlemi başarılı.</p>';
+  echo '<h1 class="fw-bold mb-5" style="text-align: center;">Hoşgeldiniz B201210048</h1>';
+}
+else
+{
+  echo '<p style = "text-align:center; color:red;">Giriş işlemi başarısız.</p>';
+}
+?>
+</div>
+</body>
+</html>

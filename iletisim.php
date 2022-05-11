@@ -35,5 +35,15 @@
 </nav>
 </header>
 <div class="container">
-    
-    </div>
+    <?php
+$gelenmail=$_POST['email'];
+$gelenadsoyad=$_POST['adsoyad'];
+$gelenkonu=$_POST['konu'];
+
+echo "Gönderenin Adı/Soyadı :.$gelenadsoyad <br><br><br><br>
+      Gönderenin E-Maili : .$gelenmail <br><br><br><br>
+      Konu : .$gelenkonu"
+    ?>
+ </div>
+</body>
+</html>
